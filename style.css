@@ -1676,4 +1676,58 @@ body::after{
         overflow:visible !important;
     }
 
+}/* =========================
+   CONTACT MOBILE FIX
+========================= */
+
+.contact-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+}
+
+
+@media(max-width:900px){
+
+    .contact-container{
+        display:flex;
+        flex-direction:column;
+    }
+
+
+    .contact-form{
+        display:block;
+        width:100%;
+    }
+
+}
+
+
+@media(max-width:600px){
+
+    .contact-container{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+
+
+    .contact-info,
+    .contact-form{
+
+        display:block;
+        width:100%;
+        visibility:visible;
+        opacity:1;
+
+    }
+
+
+    .contact-form{
+
+        margin-top:30px;
+        padding:25px;
+
+    }
+
 }
