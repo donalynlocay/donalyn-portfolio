@@ -1705,7 +1705,8 @@ body::after{
 }@media (max-width:768px){
 
     .project-card img{
-        height:180px;
-    }
-
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    display:block;
 }
