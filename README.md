@@ -1,5 +1,5 @@
 # Donalyn Locay | Portfolio
-![Portfolio Preview](portfolio home section.png)
+![Portfolio Preview](./portfolio%20home%20section.png)
 Professional portfolio website showcasing my skills and projects in Web Development, Software Testing, Virtual Assistance, and Customer Support.
 
 ## About Me
